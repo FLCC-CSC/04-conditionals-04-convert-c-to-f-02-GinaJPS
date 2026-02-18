@@ -19,8 +19,8 @@
 
 print("===== Temperature Converter =====")
 print()
-print("1. Convert from Celsius to Fahrenheit")
-print("2. Convert from Fahrenheit to Celsius")
+print("  1. Convert from Celsius to Fahrenheit")
+print("  2. Convert from Fahrenheit to Celsius")
 
 print()
 choice = int(input("Please choose from the above menu: "))
@@ -113,6 +113,9 @@ Enter a temperature to convert: -40
 1. What is one lesson you learned in this lab?
 I learned that it is ok to use empty print lines to create spaces instead of using the new line escape character, 
 and by using the empty print lines it helps you to better visualize what the output formatting will look like.
+
+I also learned that the grading system is very sensitive.  I am submitting this again, hoping that the errors I 
+got were because I didn't put two spaces in front of the menu items.
 
 
 
