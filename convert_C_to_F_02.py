@@ -1,8 +1,10 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Regina Swartout
+# DATE: 2/18/26
+# BRIEF DESCRIPTION:  A program that will first ask the user if they would like to convert from Celsius to Fahrenheit 
+# or from Fahrenheit to Celsius. Once the conversion has been established the user is prompted to enter a temperature 
+# and the equivalent temperature is output to the screen.
 
 
 
@@ -14,6 +16,23 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+
+print("===== Temperature Converter =====")
+print()
+print("1. Convert from Celsius to Fahrenheit")
+print("2. Convert from Fahrenheit to Celsius")
+
+print()
+choice = int(input("Please choose from the above menu: "))
+temp = float(input("Enter a temperature to convert: "))
+print()
+
+if choice == 1:
+  fahrenheit = (temp * 9) / 5 + 32
+  print(f'{temp} degrees Celsius is {fahrenheit} degrees Fahrenheit.')
+else:
+  celsius = (temp - 32 ) * 5/9
+  print(f'{temp} degrees Fahrenheit is {celsius} degrees Celsius.')
 
 
 
@@ -92,6 +111,8 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
+I learned that it is ok to use empty print lines to create spaces instead of using the new line escape character, 
+and by using the empty print lines it helps you to better visualize what the output formatting will look like.
 
 
 
